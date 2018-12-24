@@ -11,7 +11,7 @@ import Signup from './Signup';
 import Account from './Main';
 import styles from '../styles/mainstyle.js';
 
-export default class Login extends Component {
+export default class LoginPage extends Component {
     constructor(props) {
         super(props);
         // We have the same props as in our signup.js file and they serve the same purposes.
@@ -99,4 +99,4 @@ export default class Login extends Component {
         });
       }
     }
-    AppRegistry.registerComponent('Login', () => Login);
+    AppRegistry.registerComponent('Login', () => LoginPage);
